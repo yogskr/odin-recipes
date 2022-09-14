@@ -8,10 +8,11 @@
 /* =============== text styling =============== */
 
 h1 {
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     font-weight: bold;
-    margin: 30px;
+    margin: 20px;
+    font-family: 'Segoe UI';
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
 
 a {
     text-decoration: none;
+    color:rgb(0, 0, 0);
 }
 
 p {
@@ -32,14 +34,15 @@ p {
     color:rgb(255, 255, 255);
 }
 
-/* =============== div styling =============== */
+/* =============== navigation styling =============== */
 
 .topnav {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
     display: flex;
-    justify-content:space-around;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .topnav a {
@@ -51,13 +54,19 @@ p {
 .topnav a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    text-decoration: underline;
+    transition: height 2s ease-in-out;
 }
+
+/* =============== navigation styling =============== */
 
 .container {
     display: flex;
     justify-content:space-evenly;
     padding: 9rem;
+}
+
+.container div {
+    flex: 1;
 }
 
 .footer {
