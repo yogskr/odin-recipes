@@ -40,10 +40,9 @@ p {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 2rem;
+    height: 5rem;
 }
 
 .topnav a {
