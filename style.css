@@ -42,7 +42,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .topnav a {
@@ -68,7 +68,7 @@ p {
 
 .flex-items {
     display: flex;
-    flex-direction: columns;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
